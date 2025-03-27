@@ -1,0 +1,13 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"该用例是针对获取登录接口的测试","88","测试数据：【 15160041520，123456，True，0，登录成功】","testcases.api_test","Thu Mar 27 15:11:43 CST 2025","broken","Thu Mar 27 15:11:43 CST 2025","TestLogin","test_login","",""
+"
+    该用例是针对验车项目列表测试 
+    验车项目类型：不填或为空查全部, 
+    0.手动输入,
+    1.车辆外观,
+    2.车辆内饰和随车物品,
+    3.车辆性能,
+    4.增值小物件; 
+    多个可以用,隔开(例：1,2,3)
+    ","294","测试数据：【参数类型： 0，返回状态：True，返回code：0，返回msg:获取成功】","testcases","Thu Mar 27 15:11:43 CST 2025","passed","Thu Mar 27 15:11:43 CST 2025","TestGetCarCheckProjectList","test_get_car_check_project_list","",""
+"该用例是针对获取登录接口的测试","79","测试数据：【 测试test，123456，False，1003，用户名不存在】","testcases.api_test","Thu Mar 27 15:11:43 CST 2025","broken","Thu Mar 27 15:11:43 CST 2025","TestLogin","test_login","",""

@@ -1,0 +1,20 @@
+INFO     log:test_login.py:24 ##################### 开始执行用例 #################
+INFO     log:rest_client.py:51 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+INFO     log:rest_client.py:52 接口请求方式 ==>> POST
+INFO     log:rest_client.py:54 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1743042801020",
+    "X-Ca-Nonce": "bXCMDPkAuXA1DIz",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "Xqu0jFvjGdG5yh8q2K+B4ONAJyDrSkG3m9EaulK2AB8="
+}
+INFO     log:rest_client.py:55 接口请求 params 参数 ==>> null
+INFO     log:rest_client.py:56 接口请求体 data 参数 ==>> null
+INFO     log:rest_client.py:57 接口请求体 json 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+INFO     log:rest_client.py:58 接口上传附件 files 参数 ==>> None
+INFO     log:rest_client.py:59 接口 cookies 参数 ==>> null
