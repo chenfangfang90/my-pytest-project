@@ -1,0 +1,34 @@
+name: Test and Deploy Report
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pytest allure-pytest
+
+      - name: Run tests
+        run: pytest -s --alluredir=./report
+
+      - name: Generate Allure Report
+        run: |
+          allure generate ./report -o ./allure-report --clean
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report

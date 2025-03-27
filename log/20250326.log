@@ -1,0 +1,470 @@
+[2025-03-26 09:46:52,234][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 09:46:52,255][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 10:06:17,841][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 10:06:17,842][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 10:06:17,853][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 10:06:17,853][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 10:06:17,913][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 10:06:17,920][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 10:06:17,920][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/login
+[2025-03-26 10:06:17,920][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 10:06:17,920][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2025-03-26 10:06:17,920][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 10:06:17,920][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 10:06:17,920][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 10:06:17,920][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 10:06:17,920][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 10:06:18,200][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 10:06:18,200][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/login
+[2025-03-26 10:06:18,200][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 10:06:18,200][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2025-03-26 10:06:18,200][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 10:06:18,200][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 10:06:18,200][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 10:06:18,200][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 10:06:18,200][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 10:10:23,995][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 10:10:23,996][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 10:10:23,997][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 10:10:23,998][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 10:10:24,044][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 10:10:24,050][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 10:10:24,050][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 10:10:24,050][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 10:10:24,050][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2025-03-26 10:10:24,050][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 10:10:24,050][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 10:10:24,050][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 10:10:24,050][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 10:10:24,050][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 10:10:24,260][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 10:10:24,260][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 10:10:24,260][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 10:10:24,260][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2025-03-26 10:10:24,260][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 10:10:24,260][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 10:10:24,260][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 10:10:24,260][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 10:10:24,260][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 10:55:12,383][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 10:55:12,384][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 10:55:12,386][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 10:55:12,387][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 10:55:12,458][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 10:55:12,464][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 10:55:12,464][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 10:55:12,464][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 10:55:12,465][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742957712464",
+    "X-Ca-Nonce": "RXxuOL5F4MbfUBm",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "59VJ/Cxd8ZiCNgxmNR1pphFg0NRYZYSZondWVEh0xj0="
+}
+[2025-03-26 10:55:12,465][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 10:55:12,465][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 10:55:12,465][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 10:55:12,465][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 10:55:12,465][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 10:55:12,786][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 10:55:12,786][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 10:55:12,786][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 10:55:12,786][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742957712786",
+    "X-Ca-Nonce": "RxzPEid8ECCLjfM",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "wVLAKMC98Lk6hrBCyXia0AlZincF269kxQqxIRMZ1Q0="
+}
+[2025-03-26 10:55:12,786][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 10:55:12,786][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 10:55:12,786][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 10:55:12,786][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 10:55:12,786][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 10:57:56,002][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 10:57:56,004][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 10:57:56,005][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 10:57:56,006][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 10:57:56,055][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 10:57:56,061][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 10:57:56,061][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 10:57:56,061][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 10:57:56,061][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742957876061",
+    "X-Ca-Nonce": "nU1BOP58AzSZlh6",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "LJj/ZVPvOtmv05CSc3zopuwfpoz70eQkabcoaN6SXG8="
+}
+[2025-03-26 10:57:56,061][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 10:57:56,061][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 10:57:56,061][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 10:57:56,061][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 10:57:56,061][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 10:57:56,263][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 10:57:56,263][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 10:57:56,263][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 10:57:56,263][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742957876263",
+    "X-Ca-Nonce": "Sf5hAKjqRgkXWzN",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "VUT3AGoCDiLmz+nNPry++ooW4821GFFAUi6Gt5l7iBc="
+}
+[2025-03-26 10:57:56,263][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 10:57:56,263][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 10:57:56,263][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 10:57:56,263][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 10:57:56,263][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 11:17:16,501][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 11:17:16,502][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 11:17:16,503][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 11:17:16,504][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 11:17:16,573][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 11:17:16,579][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 11:17:16,580][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 11:17:16,580][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 11:17:16,580][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742959036580",
+    "X-Ca-Nonce": "K33d1d2WLm07Co3",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "/Ax0L9cGZuASJQVBUzmXGCzpUVtthdqugh7nqbBt1Bw="
+}
+[2025-03-26 11:17:16,580][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 11:17:16,580][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 11:17:16,580][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 11:17:16,580][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 11:17:16,580][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 11:17:16,692][user.py 26][INFO]: 登录接口返回数据：
+[2025-03-26 11:17:16,737][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 11:17:16,737][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 11:17:16,737][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 11:17:16,737][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742959036737",
+    "X-Ca-Nonce": "e5EPofR63yNE5AY",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "zwC8k2s/PYpZlfGd+e/gLOqcZbhwK2nkyqct9pwSmvs="
+}
+[2025-03-26 11:17:16,737][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 11:17:16,737][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 11:17:16,737][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 11:17:16,737][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 11:17:16,737][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 11:17:16,813][user.py 26][INFO]: 登录接口返回数据：
+[2025-03-26 11:18:29,934][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 11:18:29,935][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 11:18:29,936][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 11:18:29,936][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 11:18:29,984][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 11:18:29,990][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 11:18:29,990][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 11:18:29,990][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 11:18:29,990][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742959109990",
+    "X-Ca-Nonce": "uQSXcdHE1UnBqzK",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "iZxj46Kj/iUhw/1doagnKRmxnewd7CXqgQCaBA29hCQ="
+}
+[2025-03-26 11:18:29,990][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 11:18:29,990][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 11:18:29,990][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 11:18:29,990][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 11:18:29,990][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 11:18:30,092][user.py 26][INFO]: 登录接口返回数据：<Response [403]>
+[2025-03-26 11:18:30,134][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 11:18:30,134][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 11:18:30,135][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 11:18:30,135][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742959110134",
+    "X-Ca-Nonce": "950P0oT3jKJQhcf",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "8I+dYDH8DBz0v1Ysvypfy4t1BR99x5+EAQcX1qUeayQ="
+}
+[2025-03-26 11:18:30,135][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 11:18:30,135][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 11:18:30,135][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 11:18:30,135][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 11:18:30,135][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 11:18:30,210][user.py 26][INFO]: 登录接口返回数据：<Response [403]>
+[2025-03-26 11:20:31,668][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 11:20:31,669][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 11:20:31,670][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 11:20:31,671][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 11:20:31,718][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 11:20:31,724][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 11:20:31,724][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 11:20:31,724][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 11:20:31,724][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742959231724",
+    "X-Ca-Nonce": "3jCo8nlxSTqTvbB",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "7DaOUg71JiM4xLUsUVvf4Ikm31FEE3HstXfwvS+Ig0A="
+}
+[2025-03-26 11:20:31,724][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 11:20:31,724][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 11:20:31,724][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 11:20:31,724][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 11:20:31,724][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 11:20:31,923][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 11:20:31,923][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 11:20:31,923][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 11:20:31,923][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/json; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742959231923",
+    "X-Ca-Nonce": "SJvTh3Bl0Amlu5B",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "zJPjQN8zHDsrEW77fMH/0kNlKH+QQFFuqp2YKD/d3wA="
+}
+[2025-03-26 11:20:31,923][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 11:20:31,923][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 11:20:31,923][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 11:20:31,923][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 11:20:31,923][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 11:48:07,445][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 11:48:07,446][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 11:48:07,448][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 11:48:07,448][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 11:48:07,497][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 11:48:07,499][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 11:48:07,499][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 11:48:07,504][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 11:48:07,504][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 11:48:07,504][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 11:48:07,504][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "'24663330';",
+    "X-Ca-Timestamp": "1742960887504",
+    "X-Ca-Nonce": "IBVspsTUoLUtnY5",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "BklmEFU8nK5CF9/X095Eq/qD2xMwwRxXQJFYJZlfbyM="
+}
+[2025-03-26 11:48:07,505][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 11:48:07,505][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 11:48:07,505][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 11:48:07,505][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 11:48:07,505][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 11:48:07,750][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 11:48:07,750][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 11:48:07,750][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 11:48:07,750][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "'24663330';",
+    "X-Ca-Timestamp": "1742960887750",
+    "X-Ca-Nonce": "0wBDovFayF6LguV",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "ugQA6RIAlEBeKf0y9V+qJYyZrU25+WqIxKTObD8NOmU="
+}
+[2025-03-26 11:48:07,750][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 11:48:07,751][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 11:48:07,751][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 11:48:07,751][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 11:48:07,751][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 13:41:10,682][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 13:41:10,683][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 13:41:10,685][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 13:41:10,685][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 13:41:10,757][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 13:41:10,759][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 13:41:10,759][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 13:46:59,836][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 13:46:59,837][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 13:46:59,839][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 13:46:59,839][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 13:46:59,888][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 13:46:59,889][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 13:46:59,889][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 13:46:59,894][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 13:46:59,917][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 14:03:36,703][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 14:03:36,704][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 14:03:36,705][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 14:03:36,706][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 14:03:36,754][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 14:03:36,756][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 14:03:36,756][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 14:03:36,761][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 14:03:36,761][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 14:03:36,761][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 14:03:36,761][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "'24663330';",
+    "X-Ca-Timestamp": "1742969016761",
+    "X-Ca-Nonce": "cdZfF0ulJAna9JO",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "jhWIQ7x0nXF6yuYu43B9fEmh3X9eHHCQTuSHhbJbhQQ="
+}
+[2025-03-26 14:03:36,761][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 14:03:36,761][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2025-03-26 14:03:36,761][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 14:03:36,761][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 14:03:36,761][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 14:03:36,914][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 14:03:36,914][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 14:03:36,914][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 14:03:36,914][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "'24663330';",
+    "X-Ca-Timestamp": "1742969016914",
+    "X-Ca-Nonce": "a28rrKDdvXtHH3T",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "G4U2x9uUgqKYjllNlWDZEgLMplB+s9IVJX28Zt4GsOw="
+}
+[2025-03-26 14:03:36,914][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 14:03:36,914][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2025-03-26 14:03:36,914][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 14:03:36,914][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 14:03:36,914][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 14:07:29,070][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 14:07:29,071][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 14:07:29,072][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 14:07:29,073][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']]} 
+[2025-03-26 14:07:29,122][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 14:07:29,123][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 14:07:29,123][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 14:07:29,128][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 14:07:29,128][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 14:07:29,128][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 14:07:29,128][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742969249128",
+    "X-Ca-Nonce": "ZAJqpdxsp9hSmAb",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "0zrVSSWbmPGUn3Z8n0c7t/MeG6Df7iR4mhj9bQNouMg="
+}
+[2025-03-26 14:07:29,128][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 14:07:29,128][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2025-03-26 14:07:29,128][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 14:07:29,128][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 14:07:29,128][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 14:07:29,280][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 14:07:29,280][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 14:07:29,280][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 14:07:29,280][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Accept": "application/json; charset=UTF-8",
+    "X-Ca-Key": "24663330",
+    "X-Ca-Timestamp": "1742969249280",
+    "X-Ca-Nonce": "YBwdtAH5QgpvanR",
+    "X-Ca-Version": "1",
+    "X-Ca-Signature": "rypTeMBEL7YeWUXCLswM1iKbSj1PqTo8S1+R7jVG6Pc="
+}
+[2025-03-26 14:07:29,280][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 14:07:29,280][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2025-03-26 14:07:29,280][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> {
+    "usrLogin": "测试test",
+    "password": "123456"
+}
+[2025-03-26 14:07:29,280][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 14:07:29,281][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2025-03-26 17:44:08,269][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 17:44:08,271][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']], 'test_get_car_check_project_list': [['0', True, 0, '获取成功']]} 
+[2025-03-26 17:44:08,380][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 17:44:08,381][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 17:44:08,381][read_data.py 35][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/config/setting.ini 文件......
+[2025-03-26 17:44:08,382][read_data.py 21][INFO]: 加载 /Users/yangfeng/Desktop/pytest/test-demo/data/api_test_data.yml 文件......
+[2025-03-26 17:44:08,383][read_data.py 24][INFO]: 读到数据 ==>>  {'test_login_user': [['15160041520', '123456', True, 0, '登录成功'], ['测试test', '123456', False, 1003, '用户名不存在']], 'test_get_car_check_project_list': [['0', True, 0, '获取成功']]} 
+[2025-03-26 17:44:08,388][test_get_car_check_project_list.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 17:44:08,388][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/short/order/self/getCarCheckProjectList/0
+[2025-03-26 17:44:08,388][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2025-03-26 17:44:08,388][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2025-03-26 17:44:08,388][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 17:44:08,388][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2025-03-26 17:44:08,388][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 17:44:08,388][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 17:44:08,388][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null

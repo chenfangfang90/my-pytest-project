@@ -1,0 +1,14 @@
+[2025-03-26 10:10:24,050][test_login.py 24][INFO]: ##################### 开始执行用例 #################
+[2025-03-26 10:10:24,050][rest_client.py 51][INFO]: 接口请求地址 ==>> http://jfrapiqa.txxzc.com/ucmlUser/login
+[2025-03-26 10:10:24,050][rest_client.py 52][INFO]: 接口请求方式 ==>> POST
+[2025-03-26 10:10:24,050][rest_client.py 54][INFO]: 接口请求头 ==>> {
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+[2025-03-26 10:10:24,050][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2025-03-26 10:10:24,050][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> {
+    "usrLogin": "15160041520",
+    "password": "123456"
+}
+[2025-03-26 10:10:24,050][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2025-03-26 10:10:24,050][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2025-03-26 10:10:24,050][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null

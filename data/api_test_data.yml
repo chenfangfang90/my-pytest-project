@@ -1,0 +1,12 @@
+test_login_user:
+  # 用户名,密码,期望结果,期望返回码,期望返回信息
+  # username, password, except_result, except_code, except_msg
+  - [ "15160041520", "123456", True, 0, "登录成功" ]
+  - [ "测试test", "123456", False, 1003, "用户名不存在" ]
+
+test_get_car_check_project_list:
+  # 验车项目类型,期望结果,期望返回码,期望返回信息
+  # 验车项目类型：不填或为空查全部, 0.手动输入,1.车辆外观,2.车辆内饰和随车物品,3.车辆性能,4.增值小物件; 多个可以用,隔开(例：1,2,3)
+  # project_type, except_result, except_code, except_msg
+  - [ "0",True, 0, "获取成功" ]
+
